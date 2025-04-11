@@ -19,3 +19,6 @@ gem "importmap-rails", "~> 2.1"
 
 gem "tailwindcss-rails", "~> 3.3"
 gem "tailwindcss-ruby", "~> 3.4"
+gem "railties", "~> 8.0"
+
+gem "view_component", "~> 3.21"
