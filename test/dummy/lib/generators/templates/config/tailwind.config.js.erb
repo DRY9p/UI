@@ -5,7 +5,13 @@ module.exports = {
     './test/dummy/public/*.html',
     './test/dummy/app/helpers/**/*.rb',
     './test/dummy/app/javascript/**/*.js',
-    './test/dummy/app/views/**/*.{erb,haml,html,slim}'
+    './test/dummy/app/views/**/*.{erb,haml,html,slim}',
+    '<%= @root_link %>/app/views/**/*',
+    '<%= @root_link %>/app/helpers/**/*',
+    '<%= @root_link %>/app/controllers/**/*',
+    '<%= @root_link %>/app/javascript/**/*.js',
+    '<%= @root_link %>/app/components/**/*.rb',
+    '<%= @root_link %>/app/components/**/*.erb',
   ],
   theme: {
     extend: {

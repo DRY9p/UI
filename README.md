@@ -1,8 +1,17 @@
 # Ui
-Short description and motivation.
+The working version is located at the link
+```
+https://github.com/DRY9p/UI/tree/tailwindcss_v3_attemps#
+```
 
-## Usage
-How to use my plugin.
+## Local usage
+```bash
+  cd test/dummy && ./bin/dev
+```
+## Find me by url
+```
+  http://127.0.0.1:3001/ui
+```
 
 ## Installation
 Add this line to your application's Gemfile:

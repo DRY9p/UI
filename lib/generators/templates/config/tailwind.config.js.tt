@@ -1,9 +1,0 @@
-module.exports = {
-  content: [
-    './test/dummy/public/*.html',
-    './test/dummy/app/helpers/**/*.rb',
-    './test/dummy/app/javascript/**/*.js',
-    './test/dummy/app/views/**/*.{erb,haml,html,slim}',
-    <%= @engines_paths.map{ |path| "'#{path}'" }.join(",\n") %>
-  ],
-}
