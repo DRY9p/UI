@@ -22,3 +22,5 @@ gem "tailwindcss-ruby", "~> 3.4"
 gem "railties", "~> 8.0"
 
 gem "view_component", "~> 3.21"
+
+gem "stimulus-rails", "~> 1.3"
