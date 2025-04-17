@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 module Ui
-  class ButtonComponent < BaseComponent
+  class Button::Component < BaseComponent
     STYLES = {
       red: %(
         bg-red-600 text-white font-medium

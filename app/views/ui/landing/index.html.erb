@@ -1,6 +1,6 @@
-<%= render Ui::ButtonComponent.new(text: "First button")%>
+<%= render component("ui/button").new(text: "First button")%>
 
-<%= render Ui::ButtonComponent.new(
+<%= render component("ui/button").new(
   text: "Second button",
   style: :green,
   margin: :m,
@@ -8,7 +8,7 @@
   hover: :green
 ) %>
 
-<%= render Ui::ButtonComponent.new(
+<%= render component("ui/button").new(
   text: "Third button",
   style: :red,
   margin: :l,
@@ -16,7 +16,7 @@
   hover: :green
 ) %>
 
-<%= render Ui::ButtonComponent.new(
+<%= render component("ui/button").new(
   text: "Pulse button",
   styles: :green,
   class: "font-bold animate-pulse"
