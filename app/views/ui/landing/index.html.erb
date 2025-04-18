@@ -21,3 +21,9 @@
   styles: :green,
   class: "font-bold animate-pulse"
 ) %>
+
+<%= render component("ui/modal").new(
+  title: "Title for example",
+  text: "Close",
+  content_text: "Your content here ..."
+) %>
