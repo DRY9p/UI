@@ -20,3 +20,7 @@ gem "view_component"
 gem "tailwindcss-rails"
 
 gem "tailwindcss-ruby"
+
+gem "importmap-rails"
+
+gem "stimulus-rails", "~> 1.3"

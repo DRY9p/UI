@@ -1,6 +1,14 @@
 # frozen_string_literal: true
 
 module Ui
-  class ModalComponent < ViewComponent::Base
+  class Modal::Component < BaseComponent
+    renders_one :actions
+
+    def initialize(title:, close_path: nil, open: false, **attributes)
+      @title = title
+      @close_path = close_path
+      @attributes = attributes
+      @attributes[:open] = open
+    end
   end
 end
