@@ -17,4 +17,4 @@ gem "rubocop-rails-omakase", require: false
 
 gem "importmap-rails", "~> 2.1"
 
-gem "tailwindcss-rails", "~> 4.2"
+gem "tailwindcss-rails", "~> 4.4"
